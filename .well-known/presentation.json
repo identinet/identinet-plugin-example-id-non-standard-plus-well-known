@@ -1,98 +1,85 @@
 {
-  "@context":
-  [
+  "@context": [
     "https://www.w3.org/2018/credentials/v1",
     "https://w3id.org/security/suites/ed25519-2020/v1"
   ],
-  "type":
-  [
+  "type": [
     "VerifiablePresentation"
   ],
-  "verifiableCredential":
-  [
+  "verifiableCredential": [
     {
-      "@context":
-      [
+      "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/ed25519-2020/v1",
         {
           "schema": "https://schema.org/"
         }
       ],
-      "type":
-      [
+      "type": [
         "VerifiableCredential",
         "schema:Organization"
       ],
-      "credentialSubject":
-      {
-        "id": "did:web:id-plus-example.identinet.io",
-        "schema:vatID": "987654321",
+      "credentialSubject": {
+        "id": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard",
         "schema:taxID": "132456789",
-        "schema:leiCode": "54321",
-        "schema:legalName": "Example Company LLC",
-        "schema:location":
-        {
+        "schema:location": {
           "schema:addressCountry": "Example Country",
           "schema:addressLocality": "Example City",
           "schema:postalCode": "12345",
           "schema:streetAddress": "1 Example Street",
           "type": "schema:PostalAddress"
         },
+        "schema:legalName": "Example Company LLC",
+        "schema:email": "support@example.com",
+        "schema:vatID": "987654321",
         "schema:telephone": "+123456789",
-        "schema:email": "support@example.com"
+        "schema:leiCode": "54321"
       },
-      "issuer": "did:web:id-plus-example.identinet.io",
-      "issuanceDate": "2024-04-11T12:41:33Z",
-      "proof":
-      {
+      "issuer": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard",
+      "issuanceDate": "2025-03-18T10:50:46Z",
+      "proof": {
         "type": "Ed25519Signature2020",
         "proofPurpose": "assertionMethod",
-        "proofValue": "zRRBshNhf7BrJ1bUGuNjUrapK2g5b9w8eQbVmV5EHh8jhmJN47MeVgVzuFDueUGCRuC22gTPoidaV8YNUcPWWBZ6",
-        "verificationMethod": "did:web:id-plus-example.identinet.io#z6Mknz5Gcvc4PNCQadiyspQ7j4Le9L7Fh7jmRJwT5CpunSc2",
-        "created": "2024-04-11T12:41:33.977133210Z"
+        "proofValue": "z27ggj1Gy2v8QjmptpSBxyvuDceHVSSQjdR1oep9HcMFDi5FCqZyr7FiJUTR3Fymas6CyQEtAkcdHqfLsHvPTt9ru",
+        "verificationMethod": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard#s1OOojmBzmO8_jv3-2sisaL1TjEkBQB_elGME3i70T8",
+        "created": "2025-03-18T10:50:46.696648565Z"
       }
     },
     {
-      "@context":
-      [
+      "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/ed25519-2020/v1",
         {
           "schema": "https://schema.org/"
         }
       ],
-      "type":
-      [
+      "type": [
         "VerifiableCredential",
         "schema:Brand"
       ],
-      "credentialSubject":
-      {
-        "id": "did:web:id-plus-example.identinet.io",
+      "credentialSubject": {
+        "id": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard",
+        "schema:identifier": "1234567890",
         "schema:name": "Example Company",
-        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/1234567890",
-        "schema:identifier": "1234567890"
+        "schema:url": "https://euipo.europa.eu/eSearch/#details/trademarks/1234567890"
       },
-      "issuer": "did:web:id-plus-example.identinet.io",
-      "issuanceDate": "2024-04-11T12:41:34Z",
-      "proof":
-      {
+      "issuer": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard",
+      "issuanceDate": "2025-03-18T10:50:46Z",
+      "proof": {
         "type": "Ed25519Signature2020",
         "proofPurpose": "assertionMethod",
-        "proofValue": "zjtK1dwzwQpNeY3VbHP9HtaPu2AU8PGPwiXKJS6kmzungH4USNWCTKafTpGgHkN7v1FZr3H5h4XKqjxDokZT38Fh",
-        "verificationMethod": "did:web:id-plus-example.identinet.io#z6Mknz5Gcvc4PNCQadiyspQ7j4Le9L7Fh7jmRJwT5CpunSc2",
-        "created": "2024-04-11T12:41:34.320204298Z"
+        "proofValue": "z2PLpRMcvKV9cxGL7m9HNr1cDGcMk9dj7MhZrEKBsZoc9nSMxwF8kodArFcAf8pXdZJDGZTtn3ogr1EJig9BSz4iK",
+        "verificationMethod": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard#s1OOojmBzmO8_jv3-2sisaL1TjEkBQB_elGME3i70T8",
+        "created": "2025-03-18T10:50:46.889471411Z"
       }
     }
   ],
-  "proof":
-  {
+  "proof": {
     "type": "Ed25519Signature2020",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z3dteQphLWWGGjBfsiCvz5hgBBNBpFHq7M3jRqZPTDzEL8Y4dCLcfxURS23UZFGVoKbVjxh2DtW8Lir4FHxFK8PrX",
-    "verificationMethod": "did:web:id-plus-example.identinet.io#z6Mknz5Gcvc4PNCQadiyspQ7j4Le9L7Fh7jmRJwT5CpunSc2",
-    "created": "2024-04-11T12:41:34.656715144Z"
+    "proofValue": "zM16N1M8jTXNa6MAVX1v8vhJWnaeKrwAb4CMkjwFZQTKqZdC9TpYzcnAmubZAEaPuXewVGxBQawNweCGbtHE6qkj",
+    "verificationMethod": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard#s1OOojmBzmO8_jv3-2sisaL1TjEkBQB_elGME3i70T8",
+    "created": "2025-03-18T10:50:47.079390112Z"
   },
-  "holder": "did:web:id-plus-example.identinet.io"
+  "holder": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard"
 }
