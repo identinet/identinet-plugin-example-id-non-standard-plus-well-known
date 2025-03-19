@@ -41,7 +41,7 @@
     {
       "id": "did:web:id-broken-plus-well-known.localhost%3A8443#domain",
       "type": "LinkedDomains",
-      "serviceEndpoint": "https://id-broken-plus-well-known.localhost:8443"
+      "serviceEndpoint": "https://id-non-standard-plus-well-known-example.identinet.io/.well-known/presentation.json"
     }
   ]
 }
