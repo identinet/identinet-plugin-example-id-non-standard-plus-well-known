@@ -1,0 +1,29 @@
+{
+  "@context": "https://identity.foundation/.well-known/did-configuration/v1",
+  "linked_dids": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://identity.foundation/.well-known/did-configuration/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential",
+        "DomainLinkageCredential"
+      ],
+      "credentialSubject": {
+        "id": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard",
+        "origin": "https://id-non-standard-plus-well-known-example.identinet.io"
+      },
+      "issuer": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard",
+      "issuanceDate": "2025-03-19T08:47:25Z",
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3vXBRv7AztQh4knNp4tRGtteei1WwrGkgy8XppikHx5RxmdmpCSs3HPV9nmCZdsukAgjmtYWj9UVq9WhnpL4ELJn",
+        "verificationMethod": "did:web:id-non-standard-plus-well-known-example.identinet.io:id-non-standard#s1OOojmBzmO8_jv3-2sisaL1TjEkBQB_elGME3i70T8",
+        "created": "2025-03-19T08:47:26.109219625Z"
+      }
+    }
+  ]
+}
